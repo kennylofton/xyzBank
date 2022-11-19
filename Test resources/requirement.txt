@@ -1,0 +1,45 @@
+﻿Scenario 1 - Login as customer
+Click the customer login
+Select Neville longbottom
+Select login
+You should be presented with the welcome dashboard
+
+Scenario 2 - deposit money
+Select the deposit button
+Input deposit amount
+Select deposit button
+Validate successful message
+
+Scenario 3 - Withdraw money
+Select the withdrawal button
+Input withdrawal amount
+Select withdraw
+Validate successful message
+
+Scenario 4 - Change account to show pound
+change account to pound
+Validate account number has changed
+
+Scenario 5 - Change account to show rupee
+change account to Rupee
+Validate account number has changed
+
+Scenario 6 - Add customer
+Select bank manager login
+Select Add customer 
+Provide customer details
+Select add customer 
+Validate successful alert (click Ok)
+
+Scenario 7 - open new customer account
+Select open account
+Select customer - newly created customer
+Select GBP currency
+Select process
+Validate successful alert (Click ok)
+
+Scenario 8 - delete customer
+Select customers
+Search newly created customer
+Select delete
+Validate customer is deleted
